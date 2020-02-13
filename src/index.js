@@ -1,6 +1,3 @@
-import WebComponent1 from './webcomponent1'
-import WebComponent2 from './webcomponent2'
+import WebComponent from './webcomponent'
 
-document.registerElement('portaal-mf', WebComponent1)
-
-document.registerElement('portaal-greeter', WebComponent2)
+window.customElements.define('mf-customer-service', WebComponent)

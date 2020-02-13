@@ -1,5 +1,5 @@
 {
-  "name": "portaal-mf",
+  "name": "mf-customer-service",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,8 @@
     "babel-plugin-css-modules-transform": "^1.6.2",
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -21,7 +23,7 @@
     "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "start": "npm run build && serve -l 5002 dist",
+    "start": "npm run build && serve -l 5004 dist",
     "build": "webpack --mode development"
   },
   "eslintConfig": {
