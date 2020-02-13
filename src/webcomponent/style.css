@@ -1,0 +1,12 @@
+.mf-customer-service img {
+  float: left;
+  height: 118px;
+}
+
+.mf-customer-service .content {
+  float: right;
+}
+
+.mf-customer-service .content h2 {
+  margin: 0;
+}
