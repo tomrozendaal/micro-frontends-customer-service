@@ -1,13 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class WebComponent extends Component {
+class CustomerService extends React.Component {
   render() {
     return (
       <div className="mf-customer-service">
-        <img
-          src="http://www.pngall.com/wp-content/uploads/2016/05/Customer-Free-Download-PNG.png"
-          alt="customer-service"
-        />
+        <img src="http://getdrawings.com/free-icon/customer-care-icon-61.png" alt="customer-service" />
         <div className="content">
           <h2>Customer service</h2>
           <p>Need help? Contact our customer service.</p>
@@ -17,3 +14,5 @@ export default class WebComponent extends Component {
     )
   }
 }
+
+export default CustomerService

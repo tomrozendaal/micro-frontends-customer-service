@@ -1,0 +1,30 @@
+.mf-customer-service img {
+  float: left;
+  height: 118px;
+}
+
+.mf-customer-service button {
+  background-color: #343a40;
+  border: none;
+  border-radius: 0.25rem;
+  color: white;
+  margin-top: 13px;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.mf-customer-service .content {
+  float: right;
+}
+
+.mf-customer-service .content h2 {
+  margin: 0;
+}
+
+.mf-customer-service .content p {
+  margin: 0;
+}

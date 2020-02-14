@@ -1,4 +1,8 @@
 # Customer Service
 
 ## How to run
-`yarn start`
+
+```
+yarn install
+yarn start
+```
