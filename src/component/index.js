@@ -5,9 +5,10 @@ import { getProps } from '../util'
 
 import css from '!!raw-loader!./style.css'
 
-export default class Microfrontend extends HTMLElement {
-  connectedCallback() {
-    const mountPoint = document.createElement('span')
+class Microfrontend extends HTMLElement {
+  constructor() {
+    super()
+    const mountPoint = document.createElement('div')
     const shadow = this.attachShadow({ mode: 'open' })
     shadow.appendChild(mountPoint)
 
@@ -20,3 +21,5 @@ export default class Microfrontend extends HTMLElement {
     ReactDOM.render(<CustomerService {...props} />, mountPoint)
   }
 }
+
+export default Microfrontend
